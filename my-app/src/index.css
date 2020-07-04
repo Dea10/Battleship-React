@@ -1,13 +1,11 @@
-body {
+html, body {
+    background-color: #21232A;
+    color: white;
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
 
-.header {
-    background: #fff;
-}
-
-.ocean-square {
+.ocean-cell {
     background: #fff;
     border: 1px solid #999;
     float: left;
