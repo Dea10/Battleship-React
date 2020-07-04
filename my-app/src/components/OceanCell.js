@@ -1,9 +1,10 @@
 import React from 'react';
 
-const OceanCell = () => {
+const OceanCell = (props) => {
+
     return (
         <>
-            <button className='ocean-cell'></button>
+            <button className='ocean-cell'>{ props.value }</button>
         </>
     )
 }

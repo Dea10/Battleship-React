@@ -1,19 +1,21 @@
 import React from 'react';
-import OceanCell from './OceanCell';
+import OceanRow from './OceanRow';
 
 const Ocean = () => {
 
-    const ocean_row = Array(10).fill(<OceanCell />);
+    const ocean = Array.from(Array(10).keys());
 
     return (
         <>
             <p>Ocean</p>
 
-            <div className="board-row">
             {
-                ocean_row
+                ocean.map((cell) => 
+                    <OceanRow
+                        key = { cell }
+                    />
+                )
             }
-            </div>
             
         </>
     )
