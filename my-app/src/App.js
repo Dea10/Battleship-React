@@ -1,11 +1,11 @@
 import React from 'react';
-import Ocean from './components/Ocean';
+import GameBoard from './components/GameBoard';
 
 const App = () => {
 
     return (
         <div>
-            <Ocean />
+            <GameBoard />
         </div>
     )
 }
